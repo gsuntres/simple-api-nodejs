@@ -44,6 +44,7 @@ Application was tested on node v8.x
 
 ```bash
 git clone git@github.com:gsuntres/simple-api-nodejs.git
+cd simple-api-nodejs
 npm install
 npm start
 ```
