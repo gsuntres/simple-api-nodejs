@@ -1,0 +1,19 @@
+{
+  "name": "simple-api-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "George Suntres (gsuntres@gmail.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@git.boxtep.com:JSGroup/boxtep-react.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.15.0"
+  }
+}
