@@ -34,7 +34,7 @@ Errors will be handled by a custom error handler, which will simply create a res
 
 
 
-**Edge cases **
+**Edge cases**
 
 The *length* of the array is an obvious constraint, which might hinder the performance of our application. Our goal is to find a number, which can provide decent performance (e.g. ~1 sec) without compromising functionality. We can find that number by trial and error.
 
