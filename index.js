@@ -6,15 +6,15 @@ app.use(bodyParser.json())
 app.use('/bubbleSort', require('./routes/bubble-sort'))
 app.use('/mergeSort', require('./routes/merge-sort'))
 
-app.use(function(err, req, res, next) {
+app.use((err, req, res, next) => {
   res.status(500).send('Error: ' + err.message)
 })
 
-app.use(function(req, res, next) {
+app.use((req, res, next) => {
   res.status(404).send('Page not found');
 })
 
-var serve = app.listen(1234, function() {
+var serve = app.listen(1234, () => {
   var host = serve.address().address
   var port = serve.address().port
 
